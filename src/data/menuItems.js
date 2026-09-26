@@ -1,0 +1,60 @@
+export const CATEGORIES = ['All', 'Starters', 'Mains', 'Desserts', 'Drinks'];
+
+export const MENU_ITEMS = [
+  {
+    id: '1',
+    name: 'Greek Salad',
+    price: '$12.99',
+    category: 'Starters',
+    description: 'Our famous Greek salad of crispy romaine lettuce, peppers, Kalamata olives, and authentic Chicago feta cheese, tossed in garlic vinaigrette.',
+    image: require('../../assets/images/greek-salad.jpg'),
+  },
+  {
+    id: '2',
+    name: 'Bruschetta',
+    price: '$7.99',
+    category: 'Starters',
+    description: 'Our classic grilled artisan sourdough bread, smeared with roasted garlic and topped with vine-ripened tomatoes, fresh basil, and extra virgin olive oil.',
+    image: require('../../assets/images/bruschetta.jpg'),
+  },
+  {
+    id: '3',
+    name: 'Grilled Fish',
+    price: '$20.00',
+    category: 'Mains',
+    description: 'Fresh wild-caught Mediterranean sea bass, flame-grilled and seasoned with lemon herb dressing, served with rosemary roasted potatoes.',
+    image: require('../../assets/images/grilled-fish.jpg'),
+  },
+  {
+    id: '4',
+    name: 'Little Lemon Pasta',
+    price: '$14.50',
+    category: 'Mains',
+    description: 'Tender linguine pasta prepared with charred lemon zest, garlic butter, fresh parsley, and freshly grated aged Parmigiano-Reggiano.',
+    image: require('../../assets/images/pasta.jpg'),
+  },
+  {
+    id: '5',
+    name: 'Mediterranean Burger',
+    price: '$15.99',
+    category: 'Mains',
+    description: 'Juicy spiced lamb & beef patty on a toasted brioche bun, topped with cucumber tzatziki, pickled red onions, arugula, and feta cheese.',
+    image: require('../../assets/images/mediterranean-burger.jpg'),
+  },
+  {
+    id: '6',
+    name: 'Lemon Dessert',
+    price: '$8.50',
+    category: 'Desserts',
+    description: 'Our signature traditional recipe straight from grandma’s recipe book, featuring zesty Meyer lemon curd and a lightly browned marshmallow meringue.',
+    image: require('../../assets/images/lemon-dessert.jpg'),
+  },
+  {
+    id: '7',
+    name: 'Lemon Mint Cooler',
+    price: '$4.99',
+    category: 'Drinks',
+    description: 'Refreshing sparkling cooler made with freshly squeezed Mediterranean lemons, crushed mint leaves, and a touch of raw cane sugar.',
+    image: require('../../assets/images/lemon-mint-juice.jpg'),
+  },
+];

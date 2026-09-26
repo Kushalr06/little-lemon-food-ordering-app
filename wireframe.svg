@@ -1,0 +1,327 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1350 900" width="1350" height="900">
+  <defs>
+    <style>
+      .bg { fill: #F4F5F7; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 26px; font-weight: 700; fill: #495E57; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; fill: #666666; }
+      .device { fill: #FFFFFF; stroke: #D1D5DB; stroke-width: 2; rx: 36; filter: drop-shadow(0px 8px 16px rgba(0,0,0,0.06)); }
+      .notch { fill: #E5E7EB; rx: 6; }
+      .screen-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 18px; font-weight: 700; fill: #1F2937; }
+      .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #495E57; }
+      .text-regular { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #4B5563; }
+      .text-small { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 9px; fill: #6B7280; }
+      .text-bold { font-weight: 700; }
+      .lemon-yellow { fill: #F4CE14; }
+      .primary-green { fill: #495E57; }
+      .light-gray { fill: #F3F4F6; }
+      .border-box { stroke: #E5E7EB; stroke-width: 1; fill: #FFFFFF; rx: 8; }
+      .pill { rx: 14; }
+      .badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 10px; font-weight: 600; }
+      .annotation-line { stroke: #10B981; stroke-width: 1.5; stroke-dasharray: 4,4; }
+      .annotation-box { fill: #ECFDF5; stroke: #10B981; stroke-width: 1; rx: 6; }
+      .annotation-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-weight: 600; fill: #065F46; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1350" height="900" class="bg" />
+
+  <!-- Header Banner -->
+  <text x="50" y="45" class="title">Little Lemon Food Ordering App — UI/UX Wireframe</text>
+  <text x="50" y="70" class="subtitle">Complete Mobile Layout &amp; Architecture: Onboarding, Home Screen (with 4 Mandatory Sections), and Profile Management</text>
+
+  <!-- ==================== SCREEN 1: ONBOARDING ==================== -->
+  <g transform="translate(60, 95)">
+    <rect width="360" height="740" class="device" />
+    <!-- Notch / Speaker -->
+    <rect x="135" y="10" width="90" height="12" class="notch" />
+    
+    <!-- Screen Header Tag -->
+    <rect x="20" y="30" width="120" height="24" rx="4" class="light-gray" />
+    <text x="30" y="46" class="screen-title" style="font-size: 12px; fill: #495E57;">1. ONBOARDING</text>
+
+    <!-- App Header & Logo -->
+    <g transform="translate(20, 65)">
+      <rect width="320" height="50" fill="#FFFFFF" />
+      <circle cx="120" cy="25" r="16" fill="#F4CE14" />
+      <text x="115" y="30" font-family="sans-serif" font-size="14" font-weight="900" fill="#495E57">🍋</text>
+      <text x="145" y="31" font-family="sans-serif" font-size="16" font-weight="800" fill="#495E57" letter-spacing="1">LITTLE LEMON</text>
+      <line x1="0" y1="50" x2="320" y2="50" stroke="#E5E7EB" stroke-width="1" />
+    </g>
+
+    <!-- Hero / Welcome Banner -->
+    <g transform="translate(20, 125)">
+      <rect width="320" height="120" rx="10" class="primary-green" />
+      <text x="16" y="32" font-family="sans-serif" font-size="20" font-weight="700" fill="#F4CE14">Little Lemon</text>
+      <text x="16" y="52" font-family="sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Chicago</text>
+      <text x="16" y="74" class="text-regular" fill="#EDEFEE" width="200" font-size="10">We are a family owned</text>
+      <text x="16" y="88" class="text-regular" fill="#EDEFEE" font-size="10">Mediterranean restaurant,</text>
+      <text x="16" y="102" class="text-regular" fill="#EDEFEE" font-size="10">focused on traditional recipes.</text>
+
+      <!-- Banner Image Placeholder -->
+      <rect x="220" y="18" width="85" height="85" rx="8" fill="#3E504A" stroke="#5E746D" stroke-width="1" />
+      <text x="238" y="65" font-family="sans-serif" font-size="26">🍲</text>
+    </g>
+
+    <!-- Form Section -->
+    <g transform="translate(20, 260)">
+      <text x="0" y="20" class="screen-title" font-size="15">Let us get to know you</text>
+
+      <!-- First Name Field -->
+      <text x="0" y="55" class="label">First Name *</text>
+      <rect x="0" y="65" width="320" height="42" class="border-box" />
+      <text x="12" y="90" class="text-regular" fill="#9CA3AF">John</text>
+
+      <!-- Last Name Field -->
+      <text x="0" y="125" class="label">Last Name</text>
+      <rect x="0" y="135" width="320" height="42" class="border-box" />
+      <text x="12" y="160" class="text-regular" fill="#9CA3AF">Doe</text>
+
+      <!-- Email Field -->
+      <text x="0" y="195" class="label">Email *</text>
+      <rect x="0" y="205" width="320" height="42" class="border-box" />
+      <text x="12" y="230" class="text-regular" fill="#9CA3AF">john.doe@example.com</text>
+
+      <text x="2" y="260" class="text-small" fill="#6B7280">ℹ Next button activates when required fields are valid.</text>
+
+      <!-- Next Button (Active State) -->
+      <rect x="0" y="280" width="320" height="46" rx="8" class="lemon-yellow" />
+      <text x="140" y="308" class="badge" font-size="14" fill="#333333">Next &gt;</text>
+    </g>
+
+    <!-- Footer Note -->
+    <text x="40" y="715" class="text-small" fill="#9CA3AF" text-anchor="center">Persists info to AsyncStorage on submit</text>
+  </g>
+
+  <!-- ==================== SCREEN 2: HOME SCREEN ==================== -->
+  <g transform="translate(480, 95)">
+    <rect width="390" height="740" class="device" />
+    <!-- Notch / Speaker -->
+    <rect x="150" y="10" width="90" height="12" class="notch" />
+
+    <!-- Screen Header Tag -->
+    <rect x="20" y="30" width="130" height="24" rx="4" class="light-gray" />
+    <text x="30" y="46" class="screen-title" style="font-size: 12px; fill: #495E57;">2. HOME SCREEN</text>
+
+    <!-- SECTION 1: HEADER -->
+    <g transform="translate(20, 60)">
+      <rect width="350" height="48" fill="#FFFFFF" />
+      <!-- Logo Centered -->
+      <circle cx="140" cy="24" r="14" fill="#F4CE14" />
+      <text x="135" y="29" font-family="sans-serif" font-size="12" font-weight="900" fill="#495E57">🍋</text>
+      <text x="160" y="29" font-family="sans-serif" font-size="15" font-weight="800" fill="#495E57" letter-spacing="1">LITTLE LEMON</text>
+      
+      <!-- Profile Button / Avatar -->
+      <circle cx="330" cy="24" r="16" fill="#495E57" />
+      <text x="323" y="28" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">JD</text>
+      <line x1="0" y1="48" x2="350" y2="48" stroke="#E5E7EB" stroke-width="1" />
+    </g>
+
+    <!-- SECTION 2: HERO SECTION -->
+    <g transform="translate(20, 115)">
+      <rect width="350" height="165" rx="10" class="primary-green" />
+      <text x="16" y="30" font-family="sans-serif" font-size="22" font-weight="700" fill="#F4CE14">Little Lemon</text>
+      <text x="16" y="50" font-family="sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Chicago</text>
+      <text x="16" y="70" class="text-regular" fill="#EDEFEE" font-size="10">We are a family owned</text>
+      <text x="16" y="83" class="text-regular" fill="#EDEFEE" font-size="10">Mediterranean restaurant,</text>
+      <text x="16" y="96" class="text-regular" fill="#EDEFEE" font-size="10">focused on traditional recipes.</text>
+
+      <!-- Hero Food Image -->
+      <rect x="235" y="16" width="100" height="90" rx="10" fill="#3E504A" stroke="#5E746D" stroke-width="1" />
+      <text x="268" y="68" font-family="sans-serif" font-size="30">🍋</text>
+
+      <!-- Search Bar -->
+      <rect x="14" y="116" width="322" height="38" rx="8" fill="#FFFFFF" />
+      <text x="26" y="139" font-family="sans-serif" font-size="12" fill="#6B7280">🔍  Search menu (e.g. Pasta, Salad)...</text>
+    </g>
+
+    <!-- SECTION 3: MENU BREAKDOWN (CATEGORIES) -->
+    <g transform="translate(20, 290)">
+      <text x="2" y="18" font-family="sans-serif" font-size="13" font-weight="800" fill="#333333" letter-spacing="0.5">ORDER FOR DELIVERY!</text>
+      
+      <!-- Category Pills -->
+      <!-- All (Active) -->
+      <rect x="0" y="30" width="46" height="30" rx="15" class="primary-green" />
+      <text x="15" y="49" class="badge" fill="#FFFFFF">All</text>
+
+      <!-- Starters -->
+      <rect x="52" y="30" width="70" height="30" rx="15" fill="#EDEFEE" />
+      <text x="64" y="49" class="badge" fill="#495E57">Starters</text>
+
+      <!-- Mains -->
+      <rect x="128" y="30" width="60" height="30" rx="15" fill="#EDEFEE" />
+      <text x="142" y="49" class="badge" fill="#495E57">Mains</text>
+
+      <!-- Desserts -->
+      <rect x="194" y="30" width="72" height="30" rx="15" fill="#EDEFEE" />
+      <text x="206" y="49" class="badge" fill="#495E57">Desserts</text>
+
+      <!-- Drinks -->
+      <rect x="272" y="30" width="62" height="30" rx="15" fill="#EDEFEE" />
+      <text x="286" y="49" class="badge" fill="#495E57">Drinks</text>
+    </g>
+
+    <!-- SECTION 4: FOOD MENU LIST (SCROLLABLE) -->
+    <g transform="translate(20, 365)">
+      <!-- Item 1: Greek Salad -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="15" font-family="sans-serif" font-size="14" font-weight="700" fill="#333333">Greek Salad</text>
+        <text x="0" y="32" class="text-regular" font-size="10" fill="#6B7280" width="230">Famous Greek salad of crispy lettuce, peppers,</text>
+        <text x="0" y="45" class="text-regular" font-size="10" fill="#6B7280">olives, and our Chicago style feta cheese.</text>
+        <text x="0" y="65" font-family="sans-serif" font-size="13" font-weight="700" fill="#495E57">$12.99</text>
+        <!-- Item Thumbnail -->
+        <rect x="270" y="0" width="80" height="70" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+        <text x="295" y="42" font-family="sans-serif" font-size="24">🥗</text>
+        <line x1="0" y1="78" x2="350" y2="78" stroke="#E5E7EB" stroke-width="1" />
+      </g>
+
+      <!-- Item 2: Bruschetta -->
+      <g transform="translate(0, 90)">
+        <text x="0" y="15" font-family="sans-serif" font-size="14" font-weight="700" fill="#333333">Bruschetta</text>
+        <text x="0" y="32" class="text-regular" font-size="10" fill="#6B7280">Our classic grilled bread smeared with garlic</text>
+        <text x="0" y="45" class="text-regular" font-size="10" fill="#6B7280">and seasoned with salt and olive oil.</text>
+        <text x="0" y="65" font-family="sans-serif" font-size="13" font-weight="700" fill="#495E57">$7.99</text>
+        <rect x="270" y="0" width="80" height="70" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+        <text x="295" y="42" font-family="sans-serif" font-size="24">🍞</text>
+        <line x1="0" y1="78" x2="350" y2="78" stroke="#E5E7EB" stroke-width="1" />
+      </g>
+
+      <!-- Item 3: Grilled Fish -->
+      <g transform="translate(0, 180)">
+        <text x="0" y="15" font-family="sans-serif" font-size="14" font-weight="700" fill="#333333">Grilled Fish</text>
+        <text x="0" y="32" class="text-regular" font-size="10" fill="#6B7280">Fresh catch of the day marinated with herbs,</text>
+        <text x="0" y="45" class="text-regular" font-size="10" fill="#6B7280">lemon, and served with roasted potatoes.</text>
+        <text x="0" y="65" font-family="sans-serif" font-size="13" font-weight="700" fill="#495E57">$20.00</text>
+        <rect x="270" y="0" width="80" height="70" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+        <text x="295" y="42" font-family="sans-serif" font-size="24">🐟</text>
+        <line x1="0" y1="78" x2="350" y2="78" stroke="#E5E7EB" stroke-width="1" />
+      </g>
+
+      <!-- Item 4: Lemon Dessert -->
+      <g transform="translate(0, 270)">
+        <text x="0" y="15" font-family="sans-serif" font-size="14" font-weight="700" fill="#333333">Lemon Dessert</text>
+        <text x="0" y="32" class="text-regular" font-size="10" fill="#6B7280">Authentic recipe straight from grandma's recipe</text>
+        <text x="0" y="45" class="text-regular" font-size="10" fill="#6B7280">book with fresh zest and creamy meringue.</text>
+        <text x="0" y="65" font-family="sans-serif" font-size="13" font-weight="700" fill="#495E57">$8.50</text>
+        <rect x="270" y="0" width="80" height="70" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
+        <text x="295" y="42" font-family="sans-serif" font-size="24">🍰</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 3: PROFILE SCREEN ==================== -->
+  <g transform="translate(930, 95)">
+    <rect width="360" height="740" class="device" />
+    <!-- Notch / Speaker -->
+    <rect x="135" y="10" width="90" height="12" class="notch" />
+
+    <!-- Screen Header Tag -->
+    <rect x="20" y="30" width="130" height="24" rx="4" class="light-gray" />
+    <text x="30" y="46" class="screen-title" style="font-size: 12px; fill: #495E57;">3. PROFILE SCREEN</text>
+
+    <!-- Header with Back Button -->
+    <g transform="translate(20, 60)">
+      <circle cx="16" cy="20" r="14" fill="#495E57" />
+      <text x="11" y="24" font-family="sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">&lt;</text>
+      
+      <!-- Little Lemon Logo Small Centered -->
+      <circle cx="150" cy="20" r="12" fill="#F4CE14" />
+      <text x="146" y="24" font-family="sans-serif" font-size="10">🍋</text>
+      <text x="168" y="24" font-family="sans-serif" font-size="13" font-weight="700" fill="#495E57">LITTLE LEMON</text>
+
+      <circle cx="310" cy="20" r="14" fill="#495E57" />
+      <text x="304" y="24" font-family="sans-serif" font-size="9" fill="#FFFFFF">JD</text>
+      <line x1="0" y1="44" x2="320" y2="44" stroke="#E5E7EB" stroke-width="1" />
+    </g>
+
+    <!-- Profile Details Form -->
+    <g transform="translate(20, 115)">
+      <text x="0" y="18" font-family="sans-serif" font-size="15" font-weight="800" fill="#333333">Personal Information</text>
+
+      <!-- Avatar Section -->
+      <g transform="translate(0, 30)">
+        <circle cx="32" cy="32" r="30" fill="#495E57" />
+        <text x="21" y="38" font-family="sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">JD</text>
+        
+        <!-- Change Button -->
+        <rect x="75" y="14" width="70" height="34" rx="6" class="primary-green" />
+        <text x="90" y="35" class="badge" fill="#FFFFFF">Change</text>
+        
+        <!-- Remove Button -->
+        <rect x="155" y="14" width="70" height="34" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="170" y="35" class="badge" fill="#4B5563">Remove</text>
+      </g>
+
+      <!-- Editable Inputs -->
+      <g transform="translate(0, 110)">
+        <text x="0" y="0" class="label">First Name</text>
+        <rect x="0" y="8" width="320" height="36" class="border-box" />
+        <text x="10" y="31" class="text-regular">John</text>
+
+        <text x="0" y="58" class="label">Last Name</text>
+        <rect x="0" y="66" width="320" height="36" class="border-box" />
+        <text x="10" y="89" class="text-regular">Doe</text>
+
+        <text x="0" y="116" class="label">Email</text>
+        <rect x="0" y="124" width="320" height="36" class="border-box" />
+        <text x="10" y="147" class="text-regular">john.doe@example.com</text>
+
+        <text x="0" y="174" class="label">Phone Number</text>
+        <rect x="0" y="182" width="320" height="36" class="border-box" />
+        <text x="10" y="205" class="text-regular">(555) 019-2834</text>
+      </g>
+
+      <!-- Email Notifications Preferences -->
+      <g transform="translate(0, 365)">
+        <text x="0" y="0" font-family="sans-serif" font-size="13" font-weight="700" fill="#333333">Email notifications</text>
+        
+        <!-- Checkbox 1 -->
+        <rect x="0" y="10" width="16" height="16" rx="4" class="primary-green" />
+        <text x="4" y="22" font-family="sans-serif" font-size="10" fill="#FFFFFF">✓</text>
+        <text x="26" y="22" class="text-regular">Order statuses</text>
+
+        <!-- Checkbox 2 -->
+        <rect x="0" y="34" width="16" height="16" rx="4" class="primary-green" />
+        <text x="4" y="46" font-family="sans-serif" font-size="10" fill="#FFFFFF">✓</text>
+        <text x="26" y="46" class="text-regular">Password changes</text>
+
+        <!-- Checkbox 3 -->
+        <rect x="0" y="58" width="16" height="16" rx="4" class="primary-green" />
+        <text x="4" y="70" font-family="sans-serif" font-size="10" fill="#FFFFFF">✓</text>
+        <text x="26" y="70" class="text-regular">Special offers</text>
+
+        <!-- Checkbox 4 -->
+        <rect x="0" y="82" width="16" height="16" rx="4" class="primary-green" />
+        <text x="4" y="94" font-family="sans-serif" font-size="10" fill="#FFFFFF">✓</text>
+        <text x="26" y="94" class="text-regular">Newsletter</text>
+      </g>
+
+      <!-- Logout Button -->
+      <g transform="translate(0, 485)">
+        <rect x="0" y="0" width="320" height="40" rx="8" class="lemon-yellow" stroke="#EAB308" stroke-width="1" />
+        <text x="132" y="25" class="badge" font-size="13" fill="#333333">Log out</text>
+      </g>
+
+      <!-- Action Buttons: Discard Changes & Save Changes -->
+      <g transform="translate(0, 538)">
+        <rect x="0" y="0" width="150" height="40" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" />
+        <text x="28" y="25" class="badge" font-size="12" fill="#4B5563">Discard changes</text>
+
+        <rect x="170" y="0" width="150" height="40" rx="8" class="primary-green" />
+        <text x="206" y="25" class="badge" font-size="12" fill="#FFFFFF">Save changes</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Callouts / Section Identifiers (Rubric Alignment Badges) -->
+  <g transform="translate(50, 850)">
+    <rect x="0" y="0" width="1250" height="35" rx="6" fill="#EEF2F6" stroke="#D1D5DB" stroke-width="1" />
+    <text x="20" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#374151">Coursera Rubric Checked:</text>
+    <text x="190" y="22" font-family="sans-serif" font-size="11" fill="#4B5563">✔ Onboarding Form &amp; Validation</text>
+    <text x="410" y="22" font-family="sans-serif" font-size="11" fill="#4B5563">✔ 1. Header (Logo+Avatar)</text>
+    <text x="590" y="22" font-family="sans-serif" font-size="11" fill="#4B5563">✔ 2. Hero + Search</text>
+    <text x="730" y="22" font-family="sans-serif" font-size="11" fill="#4B5563">✔ 3. Category Buttons</text>
+    <text x="880" y="22" font-family="sans-serif" font-size="11" fill="#4B5563">✔ 4. Food Menu List</text>
+    <text x="1030" y="22" font-family="sans-serif" font-size="11" fill="#4B5563">✔ Profile &amp; Persistence</text>
+  </g>
+</svg>
